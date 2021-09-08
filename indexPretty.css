@@ -4,6 +4,9 @@ div {
     border-width: thick;
     /* 10 px */
     border-style: ridge;
+}
+
+body {
     font-family: cursive;
 }
 
