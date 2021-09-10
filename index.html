@@ -26,10 +26,11 @@
             font-family: cursive;
             text-align: center;
         }
+        /* styles the carousel pics */
         
-        .tabColor {
+        .marq {
             font-family: cursive;
-            color: antiquewhite;
+            background-color: darksalmon;
         }
         
         .carousel-item img {
@@ -66,89 +67,125 @@
 </head>
 
 <body>
+    <div class="container-fluid">
 
-    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
         Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- Branding of the nav bar -->
-        <a class="navbar-brand" href="#"> Nuriel </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Branding of the nav bar -->
+            <a class="navbar-brand" href="#"> Nuriel </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
-        <!-- changes and collapses with the seze of the website-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <!-- connects to new website-->
-                <a class="nav-item nav-link active" href="main.html"> tomatoes suck. <span class="sr-only"></span></a>
+            <!-- changes and collapses with the seze of the website-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- connects to new website-->
+                    <a class="nav-item nav-link active" href="main.html"> tomatoes suck. <span class="sr-only"></span></a>
+                </div>
             </div>
+        </nav>
+
+
+        <div class="custom">
+            <br>
+            <br>
+            <!-- Add a class with custom styling to this div -->
+            <h1> MY NAME IS NURIEL AND I AM A FIRM TOMATOE HATER. </h1>
+
         </div>
-    </nav>
 
-
-    <div class="custom">
-        <br>
-        <br>
-        <!-- Add a class with custom styling to this div -->
-        <h1> MY NAME IS NURIEL AND I AM A FIRM TOMATOE HATER. </h1>
-
-    </div>
-
-    <div class="custom" id="quirky">
-        <!-- Add the same class as before to apply the same styling to this div.
+        <div class="custom" id="quirky">
+            <!-- Add the same class as before to apply the same styling to this div.
            ALSO add an id to this div to apply something unique. -->
-        <h3>no hate to those who like tomatoes tho, only judgement</h3>
-    </div>
-
-    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
-    <br>
-    <br>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://img-9gag-fun.9cache.com/photo/aKgZ6Kb_460s.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/000/493/457/large/frans-odendaal-tomatoman-001.jpg?1443928057" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img src="https://c.tenor.com/XkXTjayb3gsAAAAd/mewkledreamy-tomato-man.gif" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img src="https://i.redd.it/dbsawgocyei11.gif" alt="Fourth slide">
-            </div>
+            <h3> <em>no hate to those who like tomatoes tho, only judgement</em></h3>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
+        <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
+        <br>
+        <br>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img-9gag-fun.9cache.com/photo/aKgZ6Kb_460s.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdnb.artstation.com/p/assets/images/images/000/493/457/large/frans-odendaal-tomatoman-001.jpg?1443928057" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://c.tenor.com/XkXTjayb3gsAAAAd/mewkledreamy-tomato-man.gif" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.redd.it/dbsawgocyei11.gif" alt="Fourth slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-    </div>
+        </div>
 
 
 
-
-
-    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+        <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
          and a header row and add at least three more rows. Feel free to change the text.-->
 
-    <table>
-        <th>
-            <td>A Person's Name</td>
-            <td>Their Fav Animal that starts with the first letter of their first name</td>
-            <td># of toes that animal has</td>
-        </th>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
 
+        <br>
+        <br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" style="color:darkred">#</th>
+                    <th scope="col" style="color:darkred">Reasons to like tomatoes </th>
+                    <th scope="col" style="color:darkred">Reasons to hate tomatoes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="table-danger">1</th>
+                    <td class="table-danger">none. </td>
+                    <td class="table-danger">texture</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td> X </td>
+                    <td> taste</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-danger">3</th>
+                    <td class="table-danger"> X </td>
+                    <td class="table-danger"> confusion? </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td> X </td>
+                    <td> popular media </td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-danger"></th>
+                    <td class="table-danger"> <strong>if you have any qualms email me - s_nuriel.cahigas@ousd.org</strong></td>
+                    <td class="table-danger"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <marquee direction="LEFT" behavior="scroll" class="marq">
+            <b>My name is Nuriel and I approve this message™©</b>
+
+        </marquee>
+        <!-- :D -->
+    </div>
 </body>
 
 </html>
