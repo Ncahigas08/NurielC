@@ -1,0 +1,48 @@
+.custom {
+    font-family: cursive;
+    text-align: center;
+}
+
+#quirky {
+    font-weight: bolder;
+    color: hotpink;
+}
+
+
+/* styles the carousel pics */
+
+.marq {
+    font-family: cursive;
+    background-color: darksalmon;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
