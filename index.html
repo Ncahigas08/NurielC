@@ -22,7 +22,38 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></scrip-->
 
-
+    <style>
+        .carousel-item img {
+            width: auto;
+            height: 400px;
+            max-height: 400px;
+            margin: auto;
+            display: block;
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            height: 100px;
+            width: 100px;
+            outline: black;
+            background-size: 100%, 100%;
+            border-radius: 100%;
+            border: 1px solid black;
+            background-image: none;
+        }
+        
+        .carousel-control-next-icon:after {
+            content: '>';
+            font-size: 55px;
+            color: red;
+        }
+        
+        .carousel-control-prev-icon:after {
+            content: '<';
+            font-size: 55px;
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,7 +73,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <!-- connects to new website-->
-                    <a class="nav-item nav-link active" href="main.html"> tomatoes suck. <span class="sr-only"></span></a>
+                    <a class="nav-item nav-link active mr-auto" href="main.html"> tomatoes suck. <span class="sr-only"></span></a>
                 </div>
             </div>
         </nav>
