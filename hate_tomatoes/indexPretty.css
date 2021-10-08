@@ -1,0 +1,15 @@
+div {
+    background: whitesmoke;
+    border: darkred;
+    border-width: thick;
+    /* 10 px */
+    border-style: ridge;
+}
+
+body {
+    font-family: cursive;
+}
+
+.center {
+    text-align: center;
+}

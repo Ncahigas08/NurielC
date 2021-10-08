@@ -1,0 +1,21 @@
+.custom {
+    font-family: cursive;
+    text-align: center;
+}
+
+#quirky {
+    font-weight: 900;
+    color: hotpink;
+}
+
+.mr-auto {
+    margin-right: 0px;
+}
+
+
+/* styles the carousel pics */
+
+.marq {
+    font-family: cursive;
+    background-color: darksalmon;
+}
