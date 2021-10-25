@@ -9,8 +9,10 @@ page that contains all the code you need for a new page.-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title> interactive </title>
+    <link rel="stylesheet" href="indexStyleSheet.css">
+    <title> Power Statements </title>
 </head>
 
 <body>
@@ -18,8 +20,167 @@ page that contains all the code you need for a new page.-->
     <div data-include="nav"></div>
     <!--Whole page container div-->
     <div class="container">
+        <br>
+        <br>
+        <h1 class="center"><strong>Power Statements</strong></h1>
+        <br>
+        <div class="box">
+            <h2 class="center"><strong> Instructions: </strong></h2>
+            <p> Select the identities that you best resonate to each of the following statements. Then, reach into your discomfort and fill out the reflection question at the end of this survey. </p>
+        </div>
+        <br>
+        <br>
+        <br>
 
-        <p> placehodler tag </p>
+        <h2 class="center"><strong>Statements</strong></h2>
+        <!--Form -->
+        <form>
+            <!-- Question 1-->
+            <p> 1. What identity are you most connected to? </p>
+            <select name="connection">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+          </select>
+            <p>1b. Do you feel accepted by others within this identity?</p>
+            <label for="yes"> Yes</label>
+            <input type="radio" id="yes" name="agree1b" value="yes">
+
+            <label for="no"> No</label>
+            <input type="radio" id="no" name="agree1b" value="no">
+
+
+            <br>
+            <br>
+            <!-- Question 2-->
+            <p> 2. What identity do you think about the most and is easiest to talk about?</p>
+            <select name="ease">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+
+            <br>
+            <br>
+            <!-- Question 3-->
+            <p> 3. What identity do you think about the least and are least comfortable with?</p>
+            <select name="comfort">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+
+            <br>
+            <br>
+            <!-- Question 4-->
+            <p> 4. What identity have you experienced the most personal struggles & changes around?</p>
+            <select name="struggle">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+            <p>4b. Do you feel that you are now at a good place around this part of your identity? </p>
+            <label for="yes"> Yes</label>
+            <input type="radio" id="yes" name="agree4b" value="yes">
+
+            <label for="no"> No</label>
+            <input type="radio" id="no" name="agree4b" value="no">
+
+            <br>
+            <br>
+            <!-- Question 5-->
+            <p> 5. What identity do you feel most scared / fearful about?</p>
+            <select name="fear">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+
+            <br>
+            <br>
+            <!-- Question 6-->
+            <p> 6. What identity do you want to question or explore?</p>
+            <select name="questioning">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+
+            <br>
+            <br>
+            <!-- Question 7-->
+            <p> 7. What do you feel people read or make assumptions off of first?</p>
+            <select name="assumption">
+            <option value="raceAndEthnicity"> Race and Ethnicity </option>
+            <option value="class"> Class (low-income to middle class to rich)</option>
+            <option value="genderIdentity">Gender Identity</option>
+            <option value="sexualOrientation">Sexual Orientation</option>
+            <option value="nationality">Nationality and Immigration Status (US Citizen; Undocumented; Resident)</option>
+            <option value="age"> Age</option>
+            <option value="familyStructure">Family Structure </option>
+            <option value="ability">Ability (Physical and Mental Health)</option>
+            <option value="size"> Size (Fatphobia and Diet Culture) </option>
+            </select>
+            <p>7b. Do you feel that this is the most important part of your identity?</p>
+            <label for="yes"> Yes</label>
+            <input type="radio" id="yes" name="agree7b" value="yes">
+
+            <label for="no"> No</label>
+            <input type="radio" id="no" name="agree7b" value="no">
+
+            <br>
+            <br>
+            <br>
+
+            <p>How did you feel after this activity? Feel free to expand on your experiences from the past statements. </p>
+
+            <textarea name="reflection" rows="8" cols="80"></textarea>
+            <br>
+            <input class="center" type="submit" name="" value="Submit Reason">
+            <br>
+            <br>
+
+
+
+        </form>
+
+
 
     </div>
     <!--Bootstrap and other JS scripts-->
